@@ -5,7 +5,7 @@ exports.handler = async (event, context)=>{
 
     try{
 
-        const response = await fetch('https://yts.am/api'+event.path,{
+        const response = await fetch('https://yts.mx/api/v2/'+event.path,{
             method: event.method,
             header: event.header,
             body: event.body,
